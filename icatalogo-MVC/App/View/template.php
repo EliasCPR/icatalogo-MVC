@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/global-styles.css" />
     <link rel="stylesheet" href="/css/produtos.css" />
     <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/categorias.css">
     <title>Administrar Produtos</title>
 </head>
 

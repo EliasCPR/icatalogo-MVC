@@ -1,7 +1,5 @@
 <?php
 
-
-
 use App\Core\Model;
 
 class Produto
@@ -30,7 +28,7 @@ class Produto
         //verificamos a quantidade de linhas
         if ($stmt->rowCount() > 0) {
             //pegamos os resultados em forma de lista de objetos
-            $resultado = $stmt->fetchAll(\PDO::FETCH_OBJ);
+            $resultado = $stmt->fetchAll(PDO::FETCH_OBJ);
 
             //retornamos o resultado
             return $resultado;
